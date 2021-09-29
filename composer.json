@@ -9,7 +9,7 @@
         "email": "lenard.mangayayam@gmail.com",
         "homepage": "https://lenard123.github.io/"
     }],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=8.0"
     },
