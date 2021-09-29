@@ -1,0 +1,21 @@
+{
+    "name": "lenard123/php-collect",
+    "description": "A PHP Library for handling arrays",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/lenard123/php-collect",
+    "authors": [{
+        "name": "Lenard Mangay-ayam",
+        "email": "lenard.mangayayam@gmail.com",
+        "homepage": "https://lenard123.github.io/"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lenard123\\PHPCollect\\": "src/"
+        }
+    }
+}
