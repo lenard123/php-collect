@@ -42,6 +42,23 @@ class Collect
 
 
 
+  /**
+   * Returns true if the given argument
+   * exists on the data
+   *
+   * */
+  public function contains($item)
+  {
+    foreach($this->data as $dataItem)
+    {
+      if ($dataItem === $item) 
+        return true;
+    }
+    return false;
+  }
+
+
+
 
   public function reduce(callable $callback, $initial = null)
   {
