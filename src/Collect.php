@@ -67,6 +67,23 @@ class Collect
 
 
 
+  public function first()
+  {
+    return $this->get(0);
+  }
+
+
+
+  public function get(int $index)
+  {
+    if ($index >= $this->count() || $index <= 0)
+      throw new Exception("Index is out of bounds");
+
+    return $this->data[$index];
+  }
+
+
+
   public function isEmpty()
   {
     return $this->count <= 0;
