@@ -60,6 +60,21 @@ class Collect
 
 
 
+  public function count()
+  {
+    return count($this->data);
+  }
+
+
+
+  public function isEmpty()
+  {
+    return $this->count <= 0;
+  }
+
+
+
+
   public function reduce(callable $callback, $initial = null)
   {
     return array_reduce($this->data, $callback, $initial);
